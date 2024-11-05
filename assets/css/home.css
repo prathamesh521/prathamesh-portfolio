@@ -31,3 +31,46 @@
 
 /* Tech logos */
 
+@media (min-width: 992px) {
+  .projects-wrapper .row {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.projects-wrapper .row:last-child {
+  margin-bottom: 0;
+}
+
+.projects-wrapper {
+  margin-top: 1.5rem;
+}
+
+.projects-wrapper .row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 992px) {
+  .projects-wrapper .row {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 992px) {
+  .projects-wrapper .row .project-description {
+    padding-top: calc(var(--bs-gutter-x)* .5);
+  }
+}
+
+@media (max-width: 992px) {
+  .projects-wrapper .row {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .projects-wrapper .row:last-child {
+    padding-bottom: 0;
+  }
+}
+
