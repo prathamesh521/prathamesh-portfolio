@@ -1,0 +1,33 @@
+.home-banner {
+  background-color: #141414;
+  height: calc(100vh - 90px);
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: unset;
+}
+
+.home-banner h1, .home-banner p {
+  color: #fff;
+}
+
+.img-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.text-center-mobile {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .text-center-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+}
+
+/* Tech logos */
+
